@@ -1,4 +1,4 @@
-import java.sql.SQLOutput;
+
 import java.util.*;
 //sum of n numbers present in an array
 public class q01 {
@@ -13,13 +13,7 @@ public class q01 {
             sum+=array[i];
         }
         System.out.println("sum of the array elements is="+sum);
-        /*for(int i=0;i<n;i++){
-            if(array[i]==0){
-                n=i;
-                break;}
-
-        }
-        System.out.println(n);*/
+        
     }
 
 }
